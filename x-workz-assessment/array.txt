@@ -1,0 +1,17 @@
+6)Array:It is data strcture consisting of elements of same datatype.
+      we can get size of array by using arrayName.length;
+	  we can access array elements by using array index.
+	  
+	  ex:String[] names={"mala","madhu","omkar","lalita","Mouneshwar"};
+
+	  
+7)	  public class ArrayEx{
+       public static void main(String[] args){
+	    int[] evenNums={2,4,6,8,10,12,14,16};// integer array declaration & initialization.
+	     System.out.println("size of array:"+evenNums.length);
+		 System.out.println("Array elements");
+		 for(int count=0;count<evenNums.length;count++){
+		    System.out.println("Array element at index "+count+":"evenNums[count]);
+		 }
+	   }
+	  }

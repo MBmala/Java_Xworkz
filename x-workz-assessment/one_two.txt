@@ -1,0 +1,21 @@
+1)Compile time:Java compiler converts the source code into the byte code means class file.
+
+  Runtime:JVM intern converts the byte code into machine level code(0/1) to run the java program.
+        JVM invokes the main() method in java.
+		
+2)i] Local variable:A variable is defined within the method.It is accessable within that block only.
+        ex:
+          public class Calculate{
+		      public static void main(String[] args){
+			  public static void add(){
+			    int num1=10;//it is local variable
+				int num2=3;//
+			  }
+			  }
+		  }		
+
+  ii] class variable:variable declared at class level.it can be accessed within the class.		  
+		Ex:
+          	 public class Calculate{
+			 private static int num=20;
+			 }	

@@ -1,0 +1,22 @@
+5)Encapsulation: variable of class(data) are hidden  from other class and that can
+                 be accessed  using methods of that class,So that we not able to alter the data from onother class.
+				 
+Ex:
+	//program1:			 
+	public class Calculate{
+	
+	private static int total=3000;
+	//getter method
+	public static int getTotal(){
+	 return total;
+	}
+	}
+//------------------------------------------	
+	//program2:
+	public class CalculateTester{
+       public static void main(String[] args){
+	   //Calculate.total=0000; here we not able to change the value of total bcz of private.
+	   int amount=Calculate.getTotal();
+	   System.out.println("total amount:"+amount)
+	   }
+	}
